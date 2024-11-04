@@ -9,8 +9,14 @@ public class WeeklyAdvisor implements Advise {
     public void advise(Day day) {
             switch (day) {
                 case MONDAY:
+                    System.out.println("Monday is the perfect day to plan your week!");
+                    break;
                 case TUESDAY:
+                    System.out.println("Tuesday is the time to focus on the most important tasks!");
+                    break;
                 case WEDNESDAY:
+                    System.out.println("Wednesday marks the midweek! It's a great moment to review your progress.");
+                    break;
                 case THURSDAY:
                     System.out.println("Stay focused and keep your productivity high!");
                     break;
